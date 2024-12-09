@@ -1,9 +1,8 @@
-<img src="./readme/title1.svg"/>
-
+![title1](https://github.com/user-attachments/assets/8294dba5-2c29-455c-98ab-30ede0d999e3)
 <br><br>
 
 <!-- project philosophy -->
-<img src="./readme/title2.svg"/>
+![title2](https://github.com/user-attachments/assets/92f01b88-8642-4c5e-be0b-29ec81677118)
 
 > Fan Tales is a vibrant online platform dedicated to fanfiction lovers, whether they enjoy reading or writing. 
 > Fan Tales aims to streamline the  process by providing a user-friendly platform for users to write their fanfictions and readers can visit story repositories.
@@ -15,7 +14,7 @@
 
 <br><br>
 <!-- Tech stack -->
-<img src="./readme/title3.svg"/>
+![title3](https://github.com/user-attachments/assets/45e06481-e2a1-45c7-8f07-dad81d0fc32e)
 
 ###  Fan Tales is built using the following technologies:
 
@@ -25,7 +24,7 @@
 
 <br><br>
 <!-- UI UX -->
-<img src="./readme/title4.svg"/>
+![title4](https://github.com/user-attachments/assets/4e19d9a8-8160-4747-94ae-8122040e5c6f)
 
 
 > We designed Fan Tales using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
@@ -41,7 +40,7 @@
 <br><br>
 
 <!-- Database Design -->
-<img src="./readme/title5.svg"/>
+![title5](https://github.com/user-attachments/assets/f20d8d23-a683-498e-a2fb-fd6e9a7b8c62)
 
 ###  Architecting Data Excellence: Innovative Database Design Strategies:
 
@@ -52,7 +51,8 @@
 
 
 <!-- Implementation -->
-<img src="./readme/title6.svg"/>
+![title6](https://github.com/user-attachments/assets/426380c6-b044-433a-8a5f-27b8af25925a)
+
 
 <!-- 
 ### User Screens (Mobile)
@@ -73,7 +73,7 @@
 
 
 <!-- Prompt Engineering -->
-<img src="./readme/title7.svg"/>
+![title7](https://github.com/user-attachments/assets/a674fbb0-04c1-479f-9323-e68f8a25ff32)
 
 ###  Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
 
@@ -82,7 +82,7 @@
 <br><br>
 
 <!-- AWS Deployment -->
-<img src="./readme/title8.svg"/>
+![title8](https://github.com/user-attachments/assets/3cd2cdbf-a7ec-4c2f-b024-d025f5ac7428)
 
 ###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
 
@@ -91,7 +91,7 @@
 <br><br>
 
 <!-- Unit Testing -->
-<img src="./readme/title9.svg"/>
+![title9](https://github.com/user-attachments/assets/e92348cd-1c82-4341-bec1-a23ef6ce060b)
 
 ###  Precision in Development: Harnessing the Power of Unit Testing:
 
@@ -101,7 +101,7 @@
 
 
 <!-- How to run -->
-<img src="./readme/title10.svg"/>
+![title10](https://github.com/user-attachments/assets/bceaf61a-125c-490b-9e2d-f86da36e0393)
 
 > To set up Coffee Express locally, follow these steps:
 
