@@ -36,8 +36,13 @@ class JWTAuthController extends Controller{
         'password' => 'required|string|min:6',
        ]);
        
-       
-    }
+       $user = new User();
+
+       $user->name =$request->name;
+       $user->username =$request->username;
+       $user->email =$request->email;
+       $user->password = Hash::make($request->password);
+ }
     
     
 }
