@@ -26,7 +26,7 @@ class JWTAuthController extends Controller{
         'user' => Auth::user(),
     ]);
 
-    }              
+    }
 
     public function signup(Request $request){
        $request->validate([
@@ -43,6 +43,7 @@ class JWTAuthController extends Controller{
        $user->email =$request->email;
        $user->password = Hash::make($request->password);
 
+       $user->save();
        //generating jwt 
        $token = JWTAuth::fromUser($user);
 
