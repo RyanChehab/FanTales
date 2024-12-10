@@ -14,6 +14,7 @@ class JWTAuthController extends Controller{
     public function login(Request $request){
     //Validating the request
     $credentials = $request->only('email', 'password');
+    
     $validator = Validator::make($credentials, [
         'email' => 'required|email',
         'password' => 'required|min:6',
@@ -22,5 +23,15 @@ class JWTAuthController extends Controller{
     if ($validator->fails()) {
         return response()->json(['error' => $validator->errors()], 422);
     }
+
+    if (!$token = JWTAuth::attempt($credentials)) {
+        return response()->json(['error' => 'Invalid credentials'], 401);
+    }
+
+    return response()->json([
+        'token' => $token,
+        'user' => Auth::user(),
+    ]);
+
     }                                   
 }
