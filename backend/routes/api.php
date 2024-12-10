@@ -8,3 +8,4 @@ use App\Http\Controllers\JWTAuthController;
 // })->middleware('auth:sanctum');
 
 Route::post('/signup',[JWTAuthController::class, 'signup']);
+Route::post('/login',[JWTAuthController::class, 'login']);
