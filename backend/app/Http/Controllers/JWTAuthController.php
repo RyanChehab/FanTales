@@ -12,14 +12,10 @@ class JWTAuthController extends Controller{
     
     public function login(Request $request){
     //Validating the request
-    $request->validate([
+    $credentials = $request->validate([
         'email' => 'required|email',
         'password' => 'required|min:6',
     ]);
-
-    if ($validator->fails()) {
-        return response()->json(['error' => $validator->errors()], 422);
-    }
 
     if (!$token = JWTAuth::attempt($credentials)) {
         return response()->json(['error' => 'Invalid credentials'], 401);
@@ -33,7 +29,14 @@ class JWTAuthController extends Controller{
     }              
 
     public function signup(Request $request){
-        
+       $request->validate([
+        'name' => 'required|string|max:255',
+        'username' => 'required|string|max:255',
+        'email' => 'required|string|email|max:255',
+        'password' => 'required|string|min:6',
+       ]);
+       
+       
     }
     
     
