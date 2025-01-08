@@ -5,12 +5,12 @@
 ![title2](https://github.com/user-attachments/assets/92f01b88-8642-4c5e-be0b-29ec81677118)
 
 > Fan Tales is a vibrant online platform dedicated to fanfiction lovers, whether they enjoy reading or writing. 
-> Fan Tales aims to streamline the  process by providing a user-friendly platform for users to write their fanfictions and readers can visit story repositories.
+> Fan Tales aims to streamline the process by providing a user-friendly platform for users to write their fanfictions and readers can visit story repositories.
 
 ### User Stories
-- As a user, I want to browse the books so that I can select a story and create fanfiction by forking from its pages.
-- As a user, I want to browse created fanfictions, so I can later read.
-- As a user, I want to be able to view and comment on the development of the fanfiction in realtime.
+- As a writer, I want to browse the books so that I can select a story and create fanfiction by forking from its pages.
+- As a reader, I want to browse created fanfictions, and view the ones under construction in realtime.
+- As an admin, I want to be able to block users, delete users, and add admins.
 
 <br><br>
 <!-- Tech stack -->
