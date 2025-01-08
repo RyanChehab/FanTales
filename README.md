@@ -8,9 +8,21 @@
 > Fan Tales aims to streamline the process by providing a user-friendly platform for users to write their fanfictions and readers can visit story repositories.
 
 ### User Stories
-- As a writer, I want to browse the books so that I can select a story and create fanfiction by forking from its pages.
-- As a reader, I want to browse created fanfictions, and view the ones under construction in realtime.
-- As an admin, I want to be able to block users, delete users, and add admins.
+
+#### Reader
+- **View Content**: As a reader, I want to browse repositories so that I can explore fanfiction and discover interesting stories.
+- **Bookmark Repository**: As a reader, I want to bookmark my favorite repositories so that I can access them later easily.
+- **View in realtime**: As a reader, I want to be able to view the construction of repositories in realtime.
+
+#### Admin
+- **Block users**: As an admin, I want to view and block any user.
+- **Delete users**: As an admin, I want to delete any user.
+- **Add Admins**: As an admin, I want to add admins.
+
+#### Writer
+- **Create Fanfiction**: As a writer, I want to write and publish fanfiction so that readers can enjoy my stories.
+- **View Books**: As a writer, I want to use a libarary of existing books to read and fork from creating fanfiction from the original book.
+- **Edit Repository**: As a writer, I want to edit my fanfiction repositories so that I can improve or update my stories.
 
 <br><br>
 <!-- Tech stack -->
