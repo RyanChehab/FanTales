@@ -134,30 +134,93 @@
 <!-- How to run -->
 ![title10](https://github.com/user-attachments/assets/bceaf61a-125c-490b-9e2d-f86da36e0393)
 
-> To set up Coffee Express locally, follow these steps:
+> To set up FanTales locally, follow these steps:
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Make sure you have the following installed on your system:
+- **Node.js** (Latest stable version)
+- **Composer** (For Laravel dependencies)
+- **PHP** (8.1 or higher)
+- **MySQL** (Or any preferred database system)
+- **Git**
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [example](https://example.com)
-2. Clone the repo
-   git clone [github](https://github.com/your_username_/Project-Name.git)
-3. Install NPM packages
+1. Clone repository and its submodules
+   ```sh
+   git clone --recurse-submodules https://github.com/RyanChehab/FanTales.git
+   ```
+2. Change directory to frontend submodule
+   
+   ```sh
+   cd frontend
+   ```
+   
+3. Install npm dependencies for the frontend
+   
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+   
+4. Change Directory to backend
 
-Now, you should be able to run Coffee Express locally and explore its features.
+   ```sh
+   cd ../backend
+   ```
+5. Run composer install to install Laravel and its dependencies
+
+   ```sh
+   composer install
+   ```
+6. Navigate to .env file and set the following:
+     ```
+     Set db connection :
+      DB_CONNECTION=mysql
+      DB_HOST=
+      DB_PORT=
+      DB_DATABASE=
+      DB_USERNAME=
+      DB_PASSWORD=
+
+8. Migrate schemas:
+
+   ```sh
+   php artisan migrate
+   ```
+9. Set the AWS S3 configuration:
+   ```
+   AWS_ACCESS_KEY_ID=
+   AWS_SECRET_ACCESS_KEY=
+   AWS_DEFAULT_REGION=
+   AWS_BUCKET=
+   AWS_URL=
+
+10. Get OpenAI secret key and add it in the env:
+    ```
+    OPENAI_BASE_URL=https://api.openai.com
+    OPENAI_API_KEY=
+
+#### Generate JWT Secret Key
+After setting up your `.env` file, generate a unique JWT secret key by running the following command in the backend directory:
+
+```sh
+php artisan jwt:secret
+```
+#### Run servers
+
+```sh
+php artisan serve
+```
+Navigate to frontend
+
+```sh
+cd ../frontend
+```
+Start project 
+
+```sh
+npm start 
+```
+
+Now, you should be able to run FanTales locally and explore its features.
