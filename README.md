@@ -62,7 +62,8 @@
 ###  Architecting Data Excellence
 
 <!-- - Insert ER Diagram here -->
-![Screenshot (116)](https://github.com/user-attachments/assets/8abd0ef7-fd88-4fd9-8ad9-977e14c42410)
+![ERD](https://github.com/user-attachments/assets/d596a833-da49-4a63-80f2-d02270e29cd6)
+
 
 
 
