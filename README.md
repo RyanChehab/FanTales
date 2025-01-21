@@ -80,7 +80,7 @@
 |------------------------------------------------|--------------------------------------------------|
 | ![FanTales1 gif](https://github.com/user-attachments/assets/f6d2c79c-d18f-468e-b914-ebace14031d3) | ![FanTales2 gif](https://github.com/user-attachments/assets/d00bec51-5a64-4f8b-883a-9c63c13e134f) |
 
-| **Display By Category**                         | **Writer Bookmarks**                              |
+| **Books By Category**                         | **Writer Bookmarks**                              |
 |------------------------------------------------|--------------------------------------------------|
 | ![Display By Category](https://github.com/user-attachments/assets/b0111051-8b48-40ee-ae36-43929e486197) | ![Writer Bookmarks](https://github.com/user-attachments/assets/6397f5ae-f5d4-416f-8fa8-cb1f3525646d) |
 
@@ -88,7 +88,7 @@
 |------------------------------------------------|--------------------------------------------------|
 | ![ReaderBookmarks](https://github.com/user-attachments/assets/e66f9848-1015-44b1-947f-0fd390d82844) | ![Reader Library](https://github.com/user-attachments/assets/f532ff8a-3d25-4afc-8676-1197a0075eb3) |
 
-| **Repository development **                           | **Repository View**                               |
+| **Repository development**                           | **Repository View**                               |
 |------------------------------------------------|--------------------------------------------------|
 | ![Repository development](https://github.com/user-attachments/assets/13500652-7a0e-4eb7-8195-b47841fbe8cf) | ![Repository View](https://github.com/user-attachments/assets/ff2e3900-567f-4761-a1d0-6d59d79713e9)|
 
@@ -118,14 +118,21 @@
  
    ![Service](https://github.com/user-attachments/assets/ea6886bf-4e3b-4b12-b11d-0240436f6041)
 
+  <br><br>
+
 - As for the prompt, it was provided to function generateImage that utilizes this service. Through calling this api on the frontend. As shown in the code:
   <br>
 
    ![fetching](https://github.com/user-attachments/assets/dc21ff46-36c4-4b82-acf1-2028ace62015)
 
+  <br><br>
+- OpenAI GPT -3.5- Turbo. Powering a chatbot that assists writers in developing fanfiction. Achived through providing the model with a clear role. Developed function chat as shown in the following code:
 
-- OpenAI GPT -3.5- Turbo. It Powers a chatbot that assists writers in developing fanfiction. Through providing the model with a clear role.
-<br><br>
+<br>
+
+   ![ChatBot](https://github.com/user-attachments/assets/e29fe6fd-3bd4-4032-b8ae-eed95f6971e9)
+
+<br>
 
 <!-- AWS Deployment -->
 <!--![title8](https://github.com/user-attachments/assets/3cd2cdbf-a7ec-4c2f-b024-d025f5ac7428)
