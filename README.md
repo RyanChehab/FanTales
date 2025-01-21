@@ -70,15 +70,20 @@
 <br><br>
 
 
-<!-- Implementation -->
+<!-- Implementation -->![Audio-Book-ezgif com-video-to-gif-converter]()
+
 ![title6](https://github.com/user-attachments/assets/426380c6-b044-433a-8a5f-27b8af25925a)
 
 
 ### User Screens
 
-| **Forking From Book**                          | **AI Generated Book Cover**                       |
+| **Forking From Book**                          | **Audio Book**                       |
 |------------------------------------------------|--------------------------------------------------|
-| ![FanTales1 gif](https://github.com/user-attachments/assets/f6d2c79c-d18f-468e-b914-ebace14031d3) | ![FanTales2 gif](https://github.com/user-attachments/assets/d00bec51-5a64-4f8b-883a-9c63c13e134f) |
+| ![FanTales1 gif](https://github.com/user-attachments/assets/f6d2c79c-d18f-468e-b914-ebace14031d3) | ![FanTales2 gif](https://github.com/user-attachments/assets/18d35a7f-225c-48ac-8443-e640f01d2bbc) |
+
+| **ChatBot**                          | **AI Generated Book Cover**                       |
+|------------------------------------------------|--------------------------------------------------|
+| ![ChatBot](https://github.com/user-attachments/assets/21f5c102-4ee8-4055-8f25-20ce9920bef0) | ![Audio Book](https://github.com/user-attachments/assets/d00bec51-5a64-4f8b-883a-9c63c13e134f) |
 
 | **Books By Category**                         | **Writer Bookmarks**                              |
 |------------------------------------------------|--------------------------------------------------|
@@ -93,9 +98,13 @@
 | ![Repository development](https://github.com/user-attachments/assets/13500652-7a0e-4eb7-8195-b47841fbe8cf) | ![Repository View](https://github.com/user-attachments/assets/ff2e3900-567f-4761-a1d0-6d59d79713e9)|
 
 ### Admin Screens
-| Login screen  | Register screen |  Landing screen |
-| ---| ---| ---|
-| ![Login](https://github.com/user-attachments/assets/f7abb72d-d09f-4784-9fde-52a524c420ff) |![Admin_Register](https://github.com/user-attachments/assets/f3ebeb45-3de3-4d2f-93f9-8fae84bbfaa5)|![Admin_Landing](https://github.com/user-attachments/assets/12630435-a1cc-4510-b67b-90d7ab222a3f) |
+| Login screen  | Register screen |
+| ---| ---|
+| ![Login](https://github.com/user-attachments/assets/f7abb72d-d09f-4784-9fde-52a524c420ff) |![Admin_Register](https://github.com/user-attachments/assets/f3ebeb45-3de3-4d2f-93f9-8fae84bbfaa5)|
+
+| Landing screen |
+| --- |
+| ![Admin_Landing](https://github.com/user-attachments/assets/12630435-a1cc-4510-b67b-90d7ab222a3f) |
 <!--| Home screen  | Menu Screen | Order Screen |
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | -->
 
