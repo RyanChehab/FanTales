@@ -48,13 +48,13 @@
 
 
 ### Mockups
-| Reader Landing screen  | Login Screen | 
+| Reader Landing screen  | Writer Landing Screen | 
 | ---| ---|
-| ![reader landing-mockup](https://github.com/user-attachments/assets/830aebe7-daaf-4e1f-9fa8-2018b667668e) |![login-mockup](https://github.com/user-attachments/assets/f317e92f-4fe4-4fcd-9989-ad9d57faf330) | 
-
+| ![reader landing-mockup](https://github.com/user-attachments/assets/8609f65b-f52b-40a4-9145-bd96aa94e6f4) |![login-mockup](https://github.com/user-attachments/assets/d218c977-06ce-430e-952e-4272f6248c77) | 
 
 
 <br><br>
+
 
 <!-- Database Design -->
 ![title5](https://github.com/user-attachments/assets/f20d8d23-a683-498e-a2fb-fd6e9a7b8c62)
@@ -73,23 +73,26 @@
 <!-- Implementation -->
 ![title6](https://github.com/user-attachments/assets/426380c6-b044-433a-8a5f-27b8af25925a)
 
- 
+
 ### User Screens
 
 | **Forking From Book**                          | **AI Generated Book Cover**                       |
 |------------------------------------------------|--------------------------------------------------|
 | ![FanTales1 gif](https://github.com/user-attachments/assets/f6d2c79c-d18f-468e-b914-ebace14031d3) | ![FanTales2 gif](https://github.com/user-attachments/assets/d00bec51-5a64-4f8b-883a-9c63c13e134f) |
 
-| **Writer Home Screen**                         | **Writer Bookmarks**                              |
+| **Display By Category**                         | **Writer Bookmarks**                              |
 |------------------------------------------------|--------------------------------------------------|
-| ![Writer HomeScreen](https://github.com/user-attachments/assets/64176ba7-2fe8-48e9-a68f-be979934c6b8) | ![Writer Bookmarks](https://github.com/user-attachments/assets/6397f5ae-f5d4-416f-8fa8-cb1f3525646d) |
+| ![Display By Category](https://github.com/user-attachments/assets/b0111051-8b48-40ee-ae36-43929e486197) | ![Writer Bookmarks](https://github.com/user-attachments/assets/6397f5ae-f5d4-416f-8fa8-cb1f3525646d) |
 
 | **Reader Bookmarks**                           | **Reader Library**                               |
 |------------------------------------------------|--------------------------------------------------|
 | ![ReaderBookmarks](https://github.com/user-attachments/assets/e66f9848-1015-44b1-947f-0fd390d82844) | ![Reader Library](https://github.com/user-attachments/assets/f532ff8a-3d25-4afc-8676-1197a0075eb3) |
 
+| **Repository development **                           | **Repository View**                               |
+|------------------------------------------------|--------------------------------------------------|
+| ![Repository development](https://github.com/user-attachments/assets/13500652-7a0e-4eb7-8195-b47841fbe8cf) | ![Repository View](https://github.com/user-attachments/assets/ff2e3900-567f-4761-a1d0-6d59d79713e9)|
 
-### Admin Screens (Web)
+### Admin Screens
 | Login screen  | Register screen |  Landing screen |
 | ---| ---| ---|
 | ![Login](https://github.com/user-attachments/assets/f7abb72d-d09f-4784-9fde-52a524c420ff) |![Admin_Register](https://github.com/user-attachments/assets/f3ebeb45-3de3-4d2f-93f9-8fae84bbfaa5)|![Admin_Landing](https://github.com/user-attachments/assets/12630435-a1cc-4510-b67b-90d7ab222a3f) |
@@ -108,7 +111,18 @@
 
 ###  AI Tools Utilized:
 
-- OpenAI DALL-E 3. Its main purpose is to generate high-quality book cover images for repositories created by the writers. It was provided  detailed descriptions of the fanfiction’s themes, characters, and setting to create visually appealing and story-relevant cover art.
+- OpenAI DALL-E 3. Its main purpose is to generate high-quality book cover images for repositories created by the writers. It was provided  detailed descriptions of the fanfiction’s themes, characters, and setting to create visually appealing and story-relevant cover art. This feature was implemented as a service file as shown in the following code:
+
+
+  <br>
+ 
+   ![Service](https://github.com/user-attachments/assets/ea6886bf-4e3b-4b12-b11d-0240436f6041)
+
+- As for the prompt, it was provided to function generateImage that utilizes this service. Through calling this api on the frontend. As shown in the code:
+  <br>
+
+   ![fetching](https://github.com/user-attachments/assets/dc21ff46-36c4-4b82-acf1-2028ace62015)
+
 
 - OpenAI GPT -3.5- Turbo. It Powers a chatbot that assists writers in developing fanfiction. Through providing the model with a clear role.
 <br><br>
