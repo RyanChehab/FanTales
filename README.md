@@ -143,14 +143,21 @@
 
 <br>
 
-<!-- AWS Deployment -->
-<!--![title8](https://github.com/user-attachments/assets/3cd2cdbf-a7ec-4c2f-b024-d025f5ac7428)
+### AWS Deployment
+![title8](https://github.com/user-attachments/assets/3cd2cdbf-a7ec-4c2f-b024-d025f5ac7428)
 
 ###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
 
 - This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
 
-<br><br>-->
+| Signup         | Login         |
+|---|---|
+| ![Signup](https://github.com/user-attachments/assets/1ebec1a4-6abe-481c-9c05-1f25f9708566) | ![Login](https://github.com/user-attachments/assets/bcdcdbb3-ebf9-4853-8e0e-0c2cb8b1c7c0) |
+|  |  |
+
+
+
+<br><br>
 
 <!-- Unit Testing -->
 <!--![title9](https://github.com/user-attachments/assets/e92348cd-1c82-4341-bec1-a23ef6ce060b)
