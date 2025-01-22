@@ -114,9 +114,9 @@
 <!-- Prompt Engineering -->
 ![title7](https://github.com/user-attachments/assets/a674fbb0-04c1-479f-9323-e68f8a25ff32)
 
-###  Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
+###  Optimizing AI Interactions: Dive into Prompt Engineering:
 
-- This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
+- Advanced prompt engineering techniques are utilized in this project to optimize NLP model interactions, achieving precise and efficient responses enhancing the user experience. 
 
 ###  AI Tools Utilized:
 
@@ -150,11 +150,23 @@
 
 - This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
 
-| Signup         | Login         |
-|---|---|
-| ![Signup](https://github.com/user-attachments/assets/1ebec1a4-6abe-481c-9c05-1f25f9708566) | ![Login](https://github.com/user-attachments/assets/bcdcdbb3-ebf9-4853-8e0e-0c2cb8b1c7c0) |
-|  |  |
+### Signup
+![Signup](https://github.com/user-attachments/assets/1ebec1a4-6abe-481c-9c05-1f25f9708566)
 
+---
+
+### Login
+![Login](https://github.com/user-attachments/assets/bcdcdbb3-ebf9-4853-8e0e-0c2cb8b1c7c0)
+
+---
+
+### Logout
+![Logout](https://github.com/user-attachments/assets/0312ffd7-8f34-40a8-b9f8-1bd2c17718a7)
+
+---
+
+### GetUsers
+![GetUsers](https://github.com/user-attachments/assets/60e19ae9-4168-4ff6-a466-07c2bf6ad774)
 
 
 <br><br>
