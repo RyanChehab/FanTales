@@ -40,10 +40,9 @@
 - The app utilizes [Amazon S3](https://aws.amazon.com/s3/) for storing media and other assets. S3 ensures secure, scalable, and durable storage, making it easy to manage and access large files such as images and documents.
 
 - The website utilizes [Bootstrap](https://getbootstrap.com/) for responsive design, additionally it simplifies the development of the website and contributes into visually appealing interfaces.
-<br><br>
 
 - [JWT](https://jwt.io/) is utilized for authentication and session management.
-
+<br>
 <!-- UI UX -->
 ![title4](https://github.com/user-attachments/assets/4e19d9a8-8160-4747-94ae-8122040e5c6f)
 
