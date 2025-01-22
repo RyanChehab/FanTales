@@ -45,9 +45,7 @@
 <br>
 <!-- UI UX -->
 ![title4](https://github.com/user-attachments/assets/4e19d9a8-8160-4747-94ae-8122040e5c6f)
-
-
-  
+<br>
 >  Fan Tales was designed using wireframes and mockups, iterating on the design until the ideal layout was reached for easy navigation and a seamless user experience.
 
 - Project Figma design [figma](https://www.figma.com/design/GTn0ioD06t7FcmZWP8nozF/FanTales?node-id=0-1&node-type=canvas&t=8TJPUpsIxGuCbiBE-0)
