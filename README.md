@@ -1,3 +1,4 @@
+# FanTales
 ![title1](https://github.com/user-attachments/assets/96aa4f36-f29b-40f5-b682-d70fd9738ba9)
 
 <br><br>
@@ -36,13 +37,19 @@
 
 - For persistent storage (database), the app uses [Laravel](https://laravel.com/) built-in Eloquent ORM, which allows the app to define custom storage schemas and interact seamlessly with a database. Laravel supports various database systems such as MySQL, PostgreSQL, SQLite, and SQL Server, enabling efficient and scalable data management.
 
-- The app utilizes Amazon S3 for storing media and other assets. S3 ensures secure, scalable, and durable storage, making it easy to manage and access large files such as images and documents.
+- The app utilizes [Amazon S3](https://aws.amazon.com/s3/) for storing media and other assets. S3 ensures secure, scalable, and durable storage, making it easy to manage and access large files such as images and documents.
+
+- The website utilizes [Bootstrap](https://getbootstrap.com/) for responsive design, additionally it simplifies the development of the website and contributes into visually appealing interfaces.
 <br><br>
+
+- [JWT](https://jwt.io/) is utilized for authentication and session management.
+
 <!-- UI UX -->
 ![title4](https://github.com/user-attachments/assets/4e19d9a8-8160-4747-94ae-8122040e5c6f)
 
 
-> We designed Fan Tales using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
+  
+>  Fan Tales was designed using wireframes and mockups, iterating on the design until the ideal layout was reached for easy navigation and a seamless user experience.
 
 - Project Figma design [figma](https://www.figma.com/design/GTn0ioD06t7FcmZWP8nozF/FanTales?node-id=0-1&node-type=canvas&t=8TJPUpsIxGuCbiBE-0)
 
@@ -59,7 +66,7 @@
 <!-- Database Design -->
 ![title5](https://github.com/user-attachments/assets/f20d8d23-a683-498e-a2fb-fd6e9a7b8c62)
 
-###  Architecting Data Excellence
+###  ERD
 
 <!-- - Insert ER Diagram here -->
 ![ERD](https://github.com/user-attachments/assets/d596a833-da49-4a63-80f2-d02270e29cd6)
@@ -70,7 +77,7 @@
 <br><br>
 
 
-<!-- Implementation -->![Audio-Book-ezgif com-video-to-gif-converter]()
+<!-- Implementation -->
 
 ![title6](https://github.com/user-attachments/assets/426380c6-b044-433a-8a5f-27b8af25925a)
 
@@ -105,8 +112,6 @@
 | Landing screen |
 | --- |
 | ![Admin_Landing](https://github.com/user-attachments/assets/12630435-a1cc-4510-b67b-90d7ab222a3f) |
-<!--| Home screen  | Menu Screen | Order Screen |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | -->
 
 <br><br>
 
@@ -146,9 +151,7 @@
 ### AWS Deployment
 ![title8](https://github.com/user-attachments/assets/3cd2cdbf-a7ec-4c2f-b024-d025f5ac7428)
 
-###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
-
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
+- This project leverages AWS by deploying FanTales' backend.
 
 ### Signup
 ![Signup](https://github.com/user-attachments/assets/1ebec1a4-6abe-481c-9c05-1f25f9708566)
@@ -170,15 +173,6 @@
 
 
 <br><br>
-
-<!-- Unit Testing -->
-<!--![title9](https://github.com/user-attachments/assets/e92348cd-1c82-4341-bec1-a23ef6ce060b)
-
-###  Precision in Development: Harnessing the Power of Unit Testing:
-
-- This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
-
-<br><br>-->
 
 
 <!-- How to run -->
