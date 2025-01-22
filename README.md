@@ -43,6 +43,7 @@
 
 - [JWT](https://jwt.io/) is utilized for authentication and session management.
 <br>
+
 <!-- UI UX -->
 ![title4](https://github.com/user-attachments/assets/4e19d9a8-8160-4747-94ae-8122040e5c6f)
 <br>
